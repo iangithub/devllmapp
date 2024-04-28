@@ -30,8 +30,8 @@ namespace IntroSample
             //use OpenAI API
             // var kernel = Kernel.CreateBuilder()
             //                 .AddOpenAIChatCompletion(
-            //                  modelId: "gpt-4-0125-preview",   // OpenAI model ID
-            //                  apiKey: "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"  // OpenAI Key
+            //                  modelId: "xxxxx",   // OpenAI model ID
+            //                  apiKey: "xxxxxxx"  // OpenAI Key
             //                 ).Build();
 
 
