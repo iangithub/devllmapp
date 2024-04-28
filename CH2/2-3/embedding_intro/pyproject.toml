@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "embedding-intro"
+version = "0.1.0"
+description = ""
+authors = ["KoKo Mexcelsa <qqkerk@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sentence-transformers = "^2.2.2"
+openai = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

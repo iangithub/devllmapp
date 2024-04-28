@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "huggingface-intro"
+version = "0.1.0"
+description = ""
+authors = ["KoKo Mexcelsa <qqkerk@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.37.0"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

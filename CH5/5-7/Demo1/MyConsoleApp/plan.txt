@@ -1,0 +1,8 @@
+{{!-- Step 1: Call WeatherServicePlugin-GetTemperature to get the temperature of Kaohsiung --}}
+{{set "temperature" (WeatherServicePlugin-GetTemperature cityName="高雄")}}
+
+{{!-- Step 2: Call StylistPlugin-Style to get the recommended outfit based on the temperature --}}
+{{set "outfit" (StylistPlugin-Style Temperature=temperature)}}
+
+{{!-- Step 3: Output the recommended outfit --}}
+{{json (concat "今天高雄的天氣適合" outfit)}}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "description": "穿搭推荐",
+  "completion": {
+    "max_tokens": 1000,
+    "temperature": 0.2,
+    "top_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "input_variables": [
+    {
+      "name": "Temperature",
+      "description": "氣溫(攝氏)",
+      "default": "",
+      "is_required": true
+    }
+  ]
+}

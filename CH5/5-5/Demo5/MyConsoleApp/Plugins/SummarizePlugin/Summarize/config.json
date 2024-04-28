@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "description": "摘要給定的文本內容，並以json格式返回結果。",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 1024,
+      "temperature": 0.2,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "user_input",
+      "description": "Text to summarize",
+      "default": "",
+      "is_required": true
+    }
+  ]
+}

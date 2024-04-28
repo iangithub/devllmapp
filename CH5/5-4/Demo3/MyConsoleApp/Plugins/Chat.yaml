@@ -1,0 +1,22 @@
+name: Chat
+template: |
+  <message role="system">你是一位facebook小編，請使用輕鬆灰諧的語氣，撰寫下列主題的貼文，內容500個字以內，#zh-tw</message>
+
+  {{#each messages}}
+    <message role="{{Role}}">{{~Content~}}</message>
+  {{/each}}
+template_format: handlebars
+description: 根據主題生成facebook貼文
+input_variables:
+  - name: messages
+    description: 聊天歷史
+    is_required: true
+execution_settings:
+  service1:
+    model_id: gpt-4
+    temperature: 0.6
+  service2:
+    model_id: gpt-3
+    temperature: 0.4
+  default:
+    temperature: 0.5

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "description": "產生Email",
+  "completion": {
+    "max_tokens": 2000,
+    "temperature": 0.2,
+    "top_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "input_variables": [
+    {
+      "name": "customer_name",
+      "description": "客戶姓名",
+      "default": "",
+      "is_required": true
+    },
+    {
+      "name": "customer_email",
+      "description": "客戶email",
+      "default": "",
+      "is_required": true
+    },
+    {
+      "name": "customer_gender",
+      "description": "客戶性別",
+      "default": "",
+      "is_required": true
+    },
+    {
+      "name": "email_subject",
+      "description": "email內容主題",
+      "default": "",
+      "is_required": true
+    },
+    {
+      "name": "my_name",
+      "description": "發件者姓名",
+      "default": "",
+      "is_required": true
+    }
+  ]
+}
