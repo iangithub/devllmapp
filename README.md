@@ -14,4 +14,4 @@
 
 
 > [!TIP]
-> [OtherSample/llama3Sample 使用 SK + Ollama 實現本地模型連結] (https://github.com/iangithub/devllmapp/OtherSample/llama3Sample) .
+> OtherSample/llama3Sample 使用 SK + Ollama 實現本地模型連結 [(https://github.com/iangithub/devllmapp/OtherSample/llama3Sample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/llama3Sample) .
