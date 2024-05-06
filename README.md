@@ -13,3 +13,5 @@
 若有任何程式碼錯誤問題請發Issues，作者群會盡快修正
 
 
+> [!TIP]
+> [OtherSample/llama3Sample 使用 SK + Ollama 實現本地模型連結] (https://github.com/iangithub/devllmapp/OtherSample/llama3Sample) .
