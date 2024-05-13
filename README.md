@@ -15,3 +15,7 @@
 
 > [!TIP]
 > OtherSample/llama3Sample 使用 SK + Ollama 實現本地模型連結 [(https://github.com/iangithub/devllmapp/OtherSample/llama3Sample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/llama3Sample) .
+
+
+> [!TIP]
+> OtherSample/llama3RAGSample 使用 KernelMemory + Ollama 實現本地模型與本地向量資料庫Qdrant，實現RAG應用 [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/llama3RAGSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/llama3RAGSample) .
