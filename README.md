@@ -19,3 +19,7 @@
 
 > [!TIP]
 > OtherSample/llama3RAGSample 使用 KernelMemory + Ollama 實現本地模型與本地向量資料庫Qdrant，實現RAG應用 [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/llama3RAGSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/llama3RAGSample) .
+
+
+> [!TIP]
+> OtherSample/ollamaEmbeddingSample 使用Ollama與MemoryKernel客製化實現本地RAG應用Embedding模型連結  [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/ollamaEmbeddingSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/ollamaEmbeddingSample)) .
