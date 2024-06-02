@@ -23,3 +23,7 @@
 
 > [!TIP]
 > OtherSample/ollamaEmbeddingSample 使用Ollama與MemoryKernel客製化實現本地RAG應用Embedding模型連結  [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/ollamaEmbeddingSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/ollamaEmbeddingSample)) .
+
+
+> [!TIP]
+> OtherSample/newfiltersSample SemanticKernel 新版本 Filters 範例 [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/newfiltersSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/newfiltersSample)) .
