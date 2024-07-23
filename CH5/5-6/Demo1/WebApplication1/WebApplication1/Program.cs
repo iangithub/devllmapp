@@ -27,14 +27,14 @@ namespace WebApplication1
             //    });
 
             //for KernelClient Sample
-            builder.Services.AddSingleton<Kernel>(sp =>
+            builder.Services.AddScoped<Kernel>(sp =>
             {
                 var builder = Kernel.CreateBuilder();
                 builder.Services.AddAzureOpenAIChatCompletion(deploymentName: deploy_Name, endpoint: aoai_Endpoint, apiKey: api_Key);
                 return builder.Build();
             });
-            builder.Services.AddSingleton<DateTimeKernelClient>();
-            builder.Services.AddSingleton<SummarizeKernelClient>();
+            builder.Services.AddScoped<DateTimeKernelClient>();
+            builder.Services.AddScoped<SummarizeKernelClient>();
 
             var app = builder.Build();
 
