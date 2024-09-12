@@ -27,3 +27,7 @@
 
 > [!TIP]
 > OtherSample/newfiltersSample SemanticKernel 新版本 Filters 範例 [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/newfiltersSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/newfiltersSample)) .
+
+
+> [!TIP]
+> OtherSample/AgentSample SemanticKernel AI Agent 範例 [(https://github.com/iangithub/devllmapp/tree/main/OtherSample/AgentSample)](https://github.com/iangithub/devllmapp/tree/main/OtherSample/AgentSample)) .
