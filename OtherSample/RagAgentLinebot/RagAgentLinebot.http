@@ -1,0 +1,6 @@
+@RagAgentLinebot_HostAddress = http://localhost:5277
+
+GET {{RagAgentLinebot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
